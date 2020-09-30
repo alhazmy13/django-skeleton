@@ -1,0 +1,8 @@
+django
+djangorestframework==3.11.1
+djangorestframework_simplejwt
+django-environ
+drf-yasg
+uritemplate
+
+pylint-django

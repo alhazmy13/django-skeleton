@@ -4,5 +4,6 @@ djangorestframework_simplejwt
 django-environ
 drf-yasg
 uritemplate
+django-rest-swagger
 
-pylint-django
+flake8-django

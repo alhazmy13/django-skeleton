@@ -12,6 +12,6 @@ class PostView(APIView):
         renderers.OpenAPIRenderer,
         renderers.SwaggerUIRenderer
     ]
-    def get(self, request):
+    def get(self):
         list_post_list = Post.objects.all().values()
         return Response((list_post_list))

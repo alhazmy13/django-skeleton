@@ -10,7 +10,7 @@ class Post(models.Model):
     pub_date = models.DateTimeField('date published')
 
     def __str__(self):
-        return self.title
+        return str(self.title)
 
     def was_published_recently(self):
         now = timezone.now()
@@ -25,5 +25,5 @@ class Comment(models.Model):
     votes = models.IntegerField(default=0)
 
     def __str__(self):
-        return self.comment
+        return str(self.comment)
         

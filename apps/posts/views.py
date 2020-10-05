@@ -15,3 +15,4 @@ class PostView(APIView):
     def get(self):
         list_post_list = Post.objects.all().values()
         return Response((list_post_list))
+        

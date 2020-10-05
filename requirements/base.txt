@@ -5,5 +5,3 @@ django-environ
 drf-yasg
 uritemplate
 django-rest-swagger
-
-flake8-django

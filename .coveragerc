@@ -1,5 +1,0 @@
-[run]
-source=django_skeleton
-
-[report]
-omit=django_skeleton/tests/*
